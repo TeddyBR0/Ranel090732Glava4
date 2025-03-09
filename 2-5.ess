@@ -1,0 +1,10 @@
+? 2.5. написать программу, которая будет находить производную от выражения и выводить её результат. используйте базовые функции производных и первообразных, которые можно реализовать в рамках языка
+start
+new x number
+new h number
+set x 2
+set h 0.0001
+new derivative number
+set derivative ( (x + h) * (x + h) - x * x ) / h
+log number derivative
+finish
