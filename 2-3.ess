@@ -1,0 +1,11 @@
+? 2.3. решите уравнение x = 2 + 2 * 2 теперь с помощью цикла
+start
+new x number
+new i number
+set i 0
+loop counter (1 > i)
+    set x 2 + 2 * 2
+    log number x
+    set i i + 1
+end counter
+finish
