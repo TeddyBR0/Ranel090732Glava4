@@ -1,0 +1,6 @@
+? 2.4. найдите число Пи
+start
+new pi number
+set pi 3.14159
+log number pi
+finish
